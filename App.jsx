@@ -1,4 +1,3 @@
-import React from "react";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -11,7 +10,7 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-        <Route path="/:num" element={<FormPage />} />
+        <Route path=":num" element={<FormPage />} />
       </>
     )
   );
